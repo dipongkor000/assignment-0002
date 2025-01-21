@@ -159,42 +159,14 @@ h2{
     margin: 100px auto;
     flex-direction: column;
     align-items: center;
-    gap: 80px;
     background-image: linear-gradient(to bottom, rgb(238, 239, 241), rgb(235, 234, 248));
   }
-  .sec-3-div-1-des{
-    padding: 20px;
-  }
-  .display-grid-1{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 19px;
-  }
-  .display-grid-2{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 19px;
-  }
-  .div4s{
-    border-radius: 18px;
-    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
-  }
-  .sec-3-div-1{
-    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
-  }
-  .sec-3-div-1-des{
-    width: 460px;
-  }
-  .sec-3-div-des{
-    width: 290px;
-    padding: 15px;
-  }
+ 
+  /* footer */
+
+
 /* responsive progress */
 @media screen and (max-width: 576px) {
-    .navbar{
-        height: 100%;
-        width: 100%;
-    }
     h3,
     .li-1,
     .li-2,
@@ -203,15 +175,6 @@ h2{
     .btn-1-div{
         display: none;
     }
-    .sec-2-alt{
-        margin-top: 600px;
-        padding: 50px 30px;
-    }
-    .sec-3-alt{
-        margin-top: 180px;
-        padding: 50px 30px;
-        gap: 5px;
-    }
     .sub-sec-1,
     .all-div{
         flex-direction: column-reverse;
@@ -219,20 +182,15 @@ h2{
     .description{
         text-align: center;
     }
-    .display-grid-1{
-        grid-template-columns: repeat(1, 1fr);
+    .sec-2-alt{
+        margin-top: 600px;
+        padding: 50px 30px;
     }
-    .display-grid-2{
-        grid-template-columns: repeat(1, 1fr);
-        text-align: center;
-        margin: auto auto;
-        gap: 50px;
+    .sec-3-alt{
+        margin-top: 230px;
+        padding: 50px 30px;
+        gap: 5px;
     }
-    .sec-2-des{
-        padding: 20px;
-        text-align: center;
-    }  
-    .btn2-margin{
-        margin-top: 50px;
-    }
+   
+    
 }
