@@ -157,6 +157,7 @@ h2{
   }
   .sec-3-alt{
     margin: 100px auto;
+    display: flex;
     flex-direction: column;
     align-items: center;
     background-image: linear-gradient(to bottom, rgb(238, 239, 241), rgb(235, 234, 248));
