@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+/* SHARE-TAGS */
+.display-flex{
+    display: flex;
+}
+.title{
+    text-align: center;
+}
+/* NAVBAR*/
+.navbar{
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.img-1{
+    width: 90px; 
+  }
+h3{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-items{
+    gap: 32px;
+}
+.li-1{
+    color: #FEA301;
+    font-size: 1.25rem;
+    font-weight: 500;
+    list-style: none;
+}
+.li-2{
+    color: skyblue;
+    font-size: 1.25rem;
+    font-weight: 500;
+    list-style: none;
+}
+.li-3{
+    color: rgba(5, 212, 223, 1);
+    font-size: 1.25rem;
+    font-weight: 500;
+    list-style: none;
+}
+.li-4{
+    color: rgba(93, 88, 239, 1);
+    font-size: 1.25rem;
+    font-weight: 500;
+    list-style: none;
+}
+
+.btn-1{
+    background-color: orange;
+    color: white;
+    border-radius: 12px;
+    width: 197px;
+    height: 50px;
+    font-size: 1.25rem;
+    padding: 10px 60.5px;
+    border: none;
+}
+/* section-1 */
+.sub-sec-1{
+    justify-content: center;
+    margin: 100px auto;
+    gap: 100px;
+    max-width: 1160px;
+    max-height: 600px;
+}
+.description{
+    font-size: 1.25rem;
+    max-width: 640px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    align-content: center;
+}
+h2{
+    font-size: 3.50rem;
+    font-weight: bold;
+}
+.font-color1{
+    color: #FEA301;
+}
+.font-color2{
+    color: aqua;
+}
+.btn-2{
+    background-color: rgb(10, 10, 10);
+    color: white;
+    border-radius: 12px;
+    width: 230px;
+    height: 60px;
+    font-size: 1.25rem;
+    padding: 10px 60.5px;
+}
+/* section-2 */
+.all-div{
+    gap: 30px;
+    margin: 80px auto;
+    align-content: center;
+    justify-content: center;
+    max-width: 1160px;
+    max-height: 481px;
+}
+.sign1{
+    border-radius: 18px;
+    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    text-align: center;
+  }
+.model1{
+    background-image: linear-gradient(to bottom, rgb(184, 247, 241), white);
+}
+.model2 {
+    background-image: linear-gradient(to bottom, rgb(243, 190, 250), white);
+  }
+.model3 {
+    background-image: linear-gradient(to bottom, rgb(202, 215, 252), white);
+  }
+  h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(32, 32, 32);
+  }
+  .sec-2-des{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(128, 128, 128);
+  }
+  .btn-type{
+    margin-top: 38px auto 60px auto;
+    border: none;
+    font-size: 1rem;
+    background-color: white;
+  }
+  .color1{
+    color: #14dd79;
+  }
+  .color2{
+    color: #b411dd;
+  }
+  .color3{
+    color: #1025e6;
+  }
+  /* section-3 */
+  h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 51.77px;
+  }
+  .sec-3-alt{
+    margin: 100px auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    background-image: linear-gradient(to bottom, rgb(238, 239, 241), rgb(235, 234, 248));
+  }
+  .sec-3-div-1-des{
+    padding: 20px;
+  }
+  .display-grid-1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 19px;
+  }
+  .display-grid-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 19px;
+  }
+  .div4s{
+    border-radius: 18px;
+    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  }
+  .sec-3-div-1{
+    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  }
+  .sec-3-div-1-des{
+    width: 460px;
+  }
+  .sec-3-div-des{
+    width: 290px;
+    padding: 15px;
+  }
+/* responsive progress */
+@media screen and (max-width: 576px) {
+    .navbar{
+        height: 100%;
+        width: 100%;
+    }
+    h3,
+    .li-1,
+    .li-2,
+    .li-3,
+    .li-4,
+    .btn-1-div{
+        display: none;
+    }
+    .sec-2-alt{
+        margin-top: 600px;
+        padding: 50px 30px;
+    }
+    .sec-3-alt{
+        margin-top: 180px;
+        padding: 50px 30px;
+        gap: 5px;
+    }
+    .sub-sec-1,
+    .all-div{
+        flex-direction: column-reverse;
+    }
+    .description{
+        text-align: center;
+    }
+    .display-grid-1{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .display-grid-2{
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+        margin: auto auto;
+        gap: 50px;
+    }
+    .sec-2-des{
+        padding: 20px;
+        text-align: center;
+    }  
+    .btn2-margin{
+        margin-top: 50px;
+    }
+}
