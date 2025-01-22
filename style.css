@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
-
-
 .quicksand-font {
   font-family: "Quicksand", serif;
   font-optical-sizing: auto;
@@ -35,11 +33,6 @@ h2{
     width: 60px; 
     height: 70px;
   }
-h3{
-    font-size: 2rem;
-    font-weight: bold;
-}
-
 .nav-items{
     gap: 32px;
 }
@@ -67,7 +60,6 @@ h3{
     font-weight: 500;
     list-style: none;
 }
-
 .btn-1{
     background-color: orange;
     color: white;
