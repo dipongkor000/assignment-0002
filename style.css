@@ -8,6 +8,9 @@
   font-style: normal;
 }
 /* SHARE-TAGS */
+*{
+  margin: 0;
+}
 .display-flex{
     display: flex;
 }
@@ -22,6 +25,7 @@ h2{
 .navbar{
     justify-content: space-around;
     width: 100%;
+    margin-top: 20px;
 }
 
 .img-1{
