@@ -27,11 +27,14 @@ h2{
     justify-content: space-around;
     width: 100%;
     margin-top: 20px;
+    border: 1px solid black;
 }
-
+.first-school{
+  margin: auto 1px auto 1px;
+}
 .img-1{
     width: 60px; 
-    height: 78px;
+    height: 70px;
   }
 h3{
     font-size: 2rem;
@@ -106,6 +109,7 @@ h3{
     font-size: 1.25rem;
     padding: 10px 60.5px;
     margin-top: 30px;
+    margin-bottom: 40px;
 }
 /* section-2 */
 .sec-2-alt{
@@ -196,6 +200,7 @@ h3{
   }
   .sec-3-alt{
     margin: 50px auto;
+    margin-bottom: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -331,7 +336,7 @@ h3{
       text-align: center;
     }
     .sec-3-alt{
-        margin: 200px auto 30px auto;
+        margin: 200px auto 0px auto;
         gap: 20px;
     }
     .container{
