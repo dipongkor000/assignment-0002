@@ -150,6 +150,32 @@ h3{
   .color3{
     color: #1025e6;
   }
+  /* section-btn */
+  .btn-div{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  .button-container {
+  gap: 50px;
+  }
+  .circle-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0px 2px 10px rgba(26, 25, 25, 0.2);
+  }
+
+
+
   /* section-3 */
   h3{
     font-size: 1.5rem;
@@ -260,5 +286,8 @@ h3{
     .footer-bg{
       flex-direction: column;
       gap: 100px;
+    }
+    .section-button{
+      display: none;
     } 
 }
