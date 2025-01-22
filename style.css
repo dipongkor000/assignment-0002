@@ -227,7 +227,7 @@ h3{
     padding: 20px;
   }
   /* footer */
-.footer-bg{
+.footer-alt{
   background-color: #464e99;
   justify-content: space-around;
   padding: 150px;
@@ -264,7 +264,7 @@ h3{
         display: none;
     }
     .navbar{
-      margin: 10px auto 280px auto;
+      margin: 10px auto 320px auto;
       justify-content: flex-start;
       background-color: #e2e2e0;
     }
@@ -309,7 +309,7 @@ h3{
     .img4s{
       width: 100%;
     }
-    .footer-bg{
+    .footer-alt{
       flex-direction: column;
       gap: 20px;
       padding: 10px;
