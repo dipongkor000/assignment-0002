@@ -14,6 +14,10 @@
 .title{
     text-align: center;
 }
+h2{
+  font-size: 3.50rem;
+  font-weight: bold;
+}
 /* NAVBAR*/
 .navbar{
     align-items: center;
@@ -22,7 +26,8 @@
 }
 
 .img-1{
-    width: 90px; 
+    width: 80px; 
+    height: 90px;
   }
 h3{
     font-size: 2rem;
@@ -81,10 +86,6 @@ h3{
     margin-top: 24px;
     margin-bottom: 24px;
     align-content: center;
-}
-h2{
-    font-size: 3.50rem;
-    font-weight: bold;
 }
 .font-color1{
     color: #FEA301;
@@ -158,17 +159,71 @@ h2{
   .sec-3-alt{
     margin: 100px auto;
     display: flex;
-    flex-direction: column;
+    flex-direction:  column;
     align-items: center;
-    background-image: linear-gradient(to bottom, rgb(238, 239, 241), rgb(235, 234, 248));
+    background-image: linear-gradient(to bottom, white, rgb(246, 248, 217));
+    gap: 100px;
   }
+  .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;  
+  }
+  .sec-3-div1{
+    width: 540px;
+    box-shadow: 1px 2px 20px rgb(160, 196, 243);
+    border-radius: 18px;
+    background-color: white;
+  }
+  .sec-3-div-image{
+    width: 100%;
+  }
+  .sec-3-div1-des,
+  .sec-3-div1-title{
+    padding: 20px;
+  }
+  .sec-3-4divs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+  .div4s{
+    box-shadow: 1px 2px 20px rgb(160, 196, 243);
+    border-radius: 18px;
+    background-color: white;
+  }
+  .sec-3-4divs-des{
+    padding: 10px;
+  }
+
  
   /* footer */
-
+.footer-bg{
+  background-color: #464e99;
+  justify-content: space-around;
+  padding: 150px;
+}
+.footer-title-color{
+  color: white;
+}
+.footer-div-1{
+  width: 400px;
+}
+.footer-div-2{
+  gap: 20px;
+}
+.footer-ul{
+  gap: 40px;
+}
+.footer-li{
+  font-size: 1.25rem;
+    font-weight: 500;
+    list-style: none;
+    color: white;
+}
 
 /* responsive progress */
 @media screen and (max-width: 576px) {
-    h3,
     .li-1,
     .li-2,
     .li-3,
@@ -188,10 +243,23 @@ h2{
         padding: 50px 30px;
     }
     .sec-3-alt{
-        margin-top: 230px;
-        padding: 50px 30px;
-        gap: 5px;
+        margin-top: 200px;
+        /* padding: 50px 30px; */
+        gap: 50px;
     }
-   
-    
+    .sec-3-div1{
+      display: none;
+    }
+    .sec-3-4divs{
+      grid-template-columns: repeat(2, 1fr);
+      gap: 5px;
+    }
+    .footer-div-1{
+      width: 250px;
+    }
+    .footer-bg{
+      flex-direction: column;
+      gap: 100px;
+      
+    } 
 }
